@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Página de login form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login__content">
+        <img
+          src="assets/img/bg-login.png"
+          alt="login image"
+          class="login__img"
+        />
+
+        <form action="" class="login__form">
+          <div>
+            <h1 class="login__title"><span>Bem-vindo</span> de Volta</h1>
+            <p class="login__description">
+              Bem-vindo! Por favor, faça login para continuar.
+            </p>
+          </div>
+
+          <div>
+            <div class="login__inputs">
+              <div>
+                <label for="" class="login__label">Email</label>
+                <input
+                  type="email"
+                  placeholder="Digite seu email"
+                  required
+                  class="login__input"
+                />
+              </div>
+              <div>
+                <label for="" class="login__label">Senha</label>
+                <div class="login__box">
+                  <input
+                    type="password"
+                    placeholder="Digite sua senha"
+                    required
+                    class="login__input"
+                    id="input-pass"
+                  />
+                  <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="login__check">
+              <input type="checkbox" class="login__check-input" />
+              <label for="" class="login__check-label">Lembrar-me</label>
+            </div>
+          </div>
+          <div>
+            <div class="login__buttons">
+              <button class="login__button">Entrar</button>
+              <button class="login__button login__button-ghost">
+                Inscreva-se
+              </button>
+            </div>
+            <a href="#" class="login__forgot"> Esqueceu sua senha? </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
