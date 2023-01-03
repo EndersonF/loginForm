@@ -63,7 +63,7 @@ $ cd loginForm
 
 ```
 
-Créditos ao :yt: YouTube <a href="https://www.youtube.com/watch?v=Fe1twteU0no" target="_blank">Bedimcode</a>
+Créditos ao <a href="https://www.youtube.com/watch?v=Fe1twteU0no" target="_blank">Youtube Bedimcode</a>
 
 Feito com :heart: por <a href="https://github.com/endersonf" target="_blank">Enderson</a>
 
